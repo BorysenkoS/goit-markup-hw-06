@@ -316,10 +316,6 @@ img {
   color: var(--primary-text-color);
 }
 
-.form-label {
-  margin-bottom: 4px;
-}
-
 .form-input {
   outline: none;
   padding-left: 42px;
@@ -453,6 +449,8 @@ input:checked + .checkbox-icon {
   display: flex;
   flex-direction: column;
   position: relative;
+
+  margin-top: 4px;
 }
 .form-icon {
   position: absolute;
